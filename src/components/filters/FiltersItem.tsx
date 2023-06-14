@@ -1,12 +1,16 @@
 import { FC } from 'react';
 
-export const FiltersItem: FC = ({ index, item, handleValueChange }) => {
+export const FiltersItem: ({
+                               index,
+                               item,
+                               handleValueChange
+                           }: { index: any; item: any; handleValueChange: any }) => JSX.Element = ({ index, item, handleValueChange }) => {
     return (
         <div className="filter-item">
             {item.type === 'select'
                 && <select
                     value={item.value}
-                    onChange={(e) => handleValueChange({ value: e.target.value, index })}
+                    onChange={(e) => handleValueChange({ value: e.target.value, index, type: item.type,  name: item.name})}
                 >
                     {item.values.map(option => (
                         <option
@@ -31,7 +35,7 @@ export const FiltersItem: FC = ({ index, item, handleValueChange }) => {
                                 type="text"
                                 value={element.value}
                                 placeholder={element.label}
-                                onChange={(e) => handleValueChange({ value: e.target.value, index })}
+                                onChange={(e) => handleValueChange({ value: e.target.value, index, type: item.type, name: element.name })}
                             />
                         ))}
                     </div>
