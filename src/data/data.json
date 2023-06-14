@@ -1,0 +1,1027 @@
+[
+    {
+        "label": "Показать сначала",
+        "value": "add_date-desc",
+        "default": null,
+        "name": "sort_by",
+        "type": "select",
+        "values": [
+            {
+                "key": "",
+                "value": "Не выбрано"
+            },
+            {
+                "key": "add_date-desc",
+                "value": "Новые"
+            },
+            {
+                "key": "price-asc",
+                "value": "Дешевые"
+            },
+            {
+                "key": "price-desc",
+                "value": "Дорогие"
+            }
+        ]
+    },
+    {
+        "label": "Регион",
+        "value": null,
+        "default": null,
+        "name": "region_id",
+        "type": "select",
+        "values": [
+            {
+                "key": "",
+                "value": "Все регионы",
+                "data": {
+                    "selectable": true
+                }
+            },
+            {
+                "key": 2,
+                "value": "Алматы",
+                "data": {
+                    "alias": "almaty",
+                    "selectable": true,
+                    "lat": 43.2859,
+                    "lon": 76.9129,
+                    "zoom": 11,
+                    "id": 2,
+                    "type": "city",
+                    "nameIn": "Алматы"
+                }
+            },
+            {
+                "key": 105,
+                "value": "Астана",
+                "data": {
+                    "alias": "astana",
+                    "selectable": true,
+                    "lat": 51.1583,
+                    "lon": 71.4314,
+                    "zoom": 11,
+                    "id": 105,
+                    "type": "city",
+                    "nameIn": "Астана"
+                }
+            },
+            {
+                "key": 278,
+                "value": "Шымкент",
+                "data": {
+                    "alias": "shymkent",
+                    "selectable": true,
+                    "lat": 42.3174,
+                    "lon": 69.6207,
+                    "zoom": 11,
+                    "id": 278,
+                    "type": "city",
+                    "nameIn": "Шымкент"
+                }
+            },
+            {
+                "key": 3729,
+                "value": "Абайская обл.",
+                "data": {
+                    "alias": "abay-oblast",
+                    "selectable": true,
+                    "lat": 0,
+                    "lon": 0,
+                    "zoom": 0,
+                    "id": 3729,
+                    "type": "region",
+                    "nameIn": "Абайская обл."
+                }
+            },
+            {
+                "key": 112,
+                "value": "Акмолинская обл.",
+                "data": {
+                    "alias": "akmolinskaja-oblast",
+                    "selectable": true,
+                    "lat": 52.1358,
+                    "lon": 70.0004,
+                    "zoom": 6,
+                    "id": 112,
+                    "type": "region",
+                    "nameIn": "Акмолинская обл."
+                }
+            },
+            {
+                "key": 124,
+                "value": "Актюбинская обл.",
+                "data": {
+                    "alias": "aktjubinskaja-oblast",
+                    "selectable": true,
+                    "lat": 49.1891,
+                    "lon": 57.2893,
+                    "zoom": 7,
+                    "id": 124,
+                    "type": "region",
+                    "nameIn": "Актюбинская обл."
+                }
+            },
+            {
+                "key": 132,
+                "value": "Алматинская обл.",
+                "data": {
+                    "alias": "almatinskaja-oblast",
+                    "selectable": true,
+                    "lat": 45.2151,
+                    "lon": 77.3393,
+                    "zoom": 6,
+                    "id": 132,
+                    "type": "region",
+                    "nameIn": "Алматинская обл."
+                }
+            },
+            {
+                "key": 213,
+                "value": "Атырауская обл.",
+                "data": {
+                    "alias": "atyrauskaja-oblast",
+                    "selectable": true,
+                    "lat": 47.3865,
+                    "lon": 52.5799,
+                    "zoom": 7,
+                    "id": 213,
+                    "type": "region",
+                    "nameIn": "Атырауская обл."
+                }
+            },
+            {
+                "key": 216,
+                "value": "Восточно-Казахстанская обл.",
+                "data": {
+                    "alias": "vostochno-kazahstanskaja-oblast",
+                    "selectable": true,
+                    "lat": 48.8247,
+                    "lon": 81.2285,
+                    "zoom": 6,
+                    "id": 216,
+                    "type": "region",
+                    "nameIn": "Восточно-Казахстанская обл."
+                }
+            },
+            {
+                "key": 227,
+                "value": "Жамбылская обл.",
+                "data": {
+                    "alias": "zhambylskaja-oblast",
+                    "selectable": true,
+                    "lat": 44.2558,
+                    "lon": 72.0988,
+                    "zoom": 6,
+                    "id": 227,
+                    "type": "region",
+                    "nameIn": "Жамбылская обл."
+                }
+            },
+            {
+                "key": 3731,
+                "value": "Жетысуская обл.",
+                "data": {
+                    "alias": "jetisyskaya-oblast",
+                    "selectable": true,
+                    "lat": 0,
+                    "lon": 0,
+                    "zoom": 0,
+                    "id": 3731,
+                    "type": "region",
+                    "nameIn": "Жетысуская обл."
+                }
+            },
+            {
+                "key": 232,
+                "value": "Западно-Казахстанская обл.",
+                "data": {
+                    "alias": "zapadno-kazahstanskaja-oblast",
+                    "selectable": true,
+                    "lat": 49.989,
+                    "lon": 50.5107,
+                    "zoom": 7,
+                    "id": 232,
+                    "type": "region",
+                    "nameIn": "Западно-Казахстанская обл."
+                }
+            },
+            {
+                "key": 235,
+                "value": "Карагандинская обл.",
+                "data": {
+                    "alias": "karagandinskaja-oblast",
+                    "selectable": true,
+                    "lat": 49.5734,
+                    "lon": 73.7798,
+                    "zoom": 6,
+                    "id": 235,
+                    "type": "region",
+                    "nameIn": "Карагандинская обл."
+                }
+            },
+            {
+                "key": 247,
+                "value": "Костанайская обл.",
+                "data": {
+                    "alias": "kostanajskaja-oblast",
+                    "selectable": true,
+                    "lat": 51.4697,
+                    "lon": 63.9799,
+                    "zoom": 6,
+                    "id": 247,
+                    "type": "region",
+                    "nameIn": "Костанайская обл."
+                }
+            },
+            {
+                "key": 253,
+                "value": "Кызылординская обл.",
+                "data": {
+                    "alias": "kyzylordinskaja-oblast",
+                    "selectable": true,
+                    "lat": 45.3425,
+                    "lon": 63.2988,
+                    "zoom": 6,
+                    "id": 253,
+                    "type": "region",
+                    "nameIn": "Кызылординская обл."
+                }
+            },
+            {
+                "key": 257,
+                "value": "Мангистауская обл.",
+                "data": {
+                    "alias": "mangistauskaja-oblast",
+                    "selectable": true,
+                    "lat": 44.2648,
+                    "lon": 53.7627,
+                    "zoom": 6,
+                    "id": 257,
+                    "type": "region",
+                    "nameIn": "Мангистауская обл."
+                }
+            },
+            {
+                "key": 260,
+                "value": "Павлодарская обл.",
+                "data": {
+                    "alias": "pavlodarskaja-oblast",
+                    "selectable": true,
+                    "lat": 52.0809,
+                    "lon": 76.7461,
+                    "zoom": 6,
+                    "id": 260,
+                    "type": "region",
+                    "nameIn": "Павлодарская обл."
+                }
+            },
+            {
+                "key": 264,
+                "value": "Северо-Казахстанская обл.",
+                "data": {
+                    "alias": "severo-kazahstanskaja-oblast",
+                    "selectable": true,
+                    "lat": 54.4275,
+                    "lon": 68.6491,
+                    "zoom": 7,
+                    "id": 264,
+                    "type": "region",
+                    "nameIn": "Северо-Казахстанская обл."
+                }
+            },
+            {
+                "key": 270,
+                "value": "Туркестанская обл.",
+                "data": {
+                    "alias": "juzhno-kazahstanskaja-oblast",
+                    "selectable": true,
+                    "lat": 44.9498,
+                    "lon": 78.4223,
+                    "zoom": 11,
+                    "id": 270,
+                    "type": "region",
+                    "nameIn": "Туркестанская обл."
+                }
+            },
+            {
+                "key": 3727,
+                "value": "Улытауская обл.",
+                "data": {
+                    "alias": "ulitayskay-oblast",
+                    "selectable": true,
+                    "lat": 0,
+                    "lon": 0,
+                    "zoom": 0,
+                    "id": 3727,
+                    "type": "region",
+                    "nameIn": "Улытауская обл."
+                }
+            },
+            {
+                "key": "zn",
+                "value": "Другие страны",
+                "data": {
+                    "selectable": true,
+                    "id": "zn",
+                    "lat": null,
+                    "lon": null,
+                    "zoom": null
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "value": null,
+        "default": null,
+        "name": "bounds",
+        "type": "hidden"
+    },
+    {
+        "label": "Выделенные области на карте",
+        "value": null,
+        "default": null,
+        "name": "areas",
+        "type": "hidden"
+    },
+    {
+        "label": "Количество комнат",
+        "value": null,
+        "default": null,
+        "name": "das[live.rooms]",
+        "type": "checkboxgroup",
+        "validators": [
+            {
+                "numericality": {
+                    "lessThanOrEqualTo": 1000,
+                    "notLessThanOrEqualTo": "Ожидается число меньше 1000",
+                    "notValid": "Ожидается число"
+                }
+            }
+        ],
+        "values": [
+            {
+                "key": "1",
+                "value": "1"
+            },
+            {
+                "key": "2",
+                "value": "2"
+            },
+            {
+                "key": "3",
+                "value": "3"
+            },
+            {
+                "key": "4",
+                "value": "4"
+            },
+            {
+                "key": "5.999",
+                "value": "5+"
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "name": "price",
+        "label": "Цена, тг",
+        "elements": [
+            {
+                "label": "От",
+                "value": null,
+                "default": null,
+                "name": "das[price][from]",
+                "type": null,
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 150000000000,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 150000000000",
+                            "notValid": "Ожидается число"
+                        }
+                    },
+                    {
+                        "numericality": {
+                            "greaterThanOrEqualTo": 1,
+                            "notGreaterThanOrEqualTo": "Ожидается число больше 1",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            },
+            {
+                "label": "До",
+                "value": null,
+                "default": null,
+                "name": "das[price][to]",
+                "type": null,
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 150000000000,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 150000000000",
+                            "notValid": "Ожидается число"
+                        }
+                    },
+                    {
+                        "numericality": {
+                            "greaterThanOrEqualTo": 1,
+                            "notGreaterThanOrEqualTo": "Ожидается число больше 1",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            }
+        ],
+        "value": ""
+    },
+    {
+        "label": "C фото",
+        "value": null,
+        "default": null,
+        "name": "das[_sys.hasphoto]",
+        "type": "checkbox",
+        "values": [
+            {
+                "key": 1,
+                "value": "С фото"
+            }
+        ]
+    },
+    {
+        "label": "Продавец",
+        "value": null,
+        "default": null,
+        "name": "das[who]",
+        "type": "checkbox",
+        "validators": [
+            {
+                "numericality": {
+                    "onlyInteger": true,
+                    "notInteger": "Ожидается число",
+                    "notValid": "Ожидается число"
+                }
+            }
+        ],
+        "values": [
+            {
+                "key": 1,
+                "value": "От хозяев"
+            }
+        ]
+    },
+    {
+        "label": "Новостройки",
+        "value": null,
+        "default": null,
+        "name": "das[novostroiki]",
+        "type": "checkbox",
+        "values": [
+            {
+                "key": 1,
+                "value": "Новостройки"
+            }
+        ]
+    },
+    {
+        "label": "От Крыша Агентов",
+        "value": null,
+        "default": null,
+        "name": "das[_sys.fromAgent]",
+        "type": "checkbox",
+        "values": [
+            {
+                "key": 1,
+                "value": "От Крыша Агентов <div class=\"label label--small\">new</div>"
+            }
+        ]
+    },
+    {
+        "type": "text",
+        "label": "О доме"
+    },
+    {
+        "type": "group",
+        "name": "floor",
+        "label": "Этаж",
+        "elements": [
+            {
+                "label": "От",
+                "value": null,
+                "default": null,
+                "name": "das[flat.floor][from]",
+                "type": "numeric",
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 500,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 500",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            },
+            {
+                "label": "До",
+                "value": null,
+                "default": null,
+                "name": "das[flat.floor][to]",
+                "type": "numeric",
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 500,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 500",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Не первый этаж",
+        "value": null,
+        "default": null,
+        "name": "das[floor_not_first]",
+        "type": "checkbox",
+        "values": [
+            {
+                "key": "1",
+                "value": "Не первый этаж",
+                "data": {
+                    "extra": {
+                        "val_kk": "Бірінші қабат емес"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "label": "Не последний этаж",
+        "value": null,
+        "default": null,
+        "name": "das[floor_not_last]",
+        "type": "checkbox",
+        "values": [
+            {
+                "key": "1",
+                "value": "Не последний этаж",
+                "data": {
+                    "extra": {
+                        "val_kk": "Соңғы қабат емес"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "name": "build-year",
+        "label": "Год постройки (сдачи в эксплуатацию)",
+        "elements": [
+            {
+                "label": "От",
+                "value": null,
+                "default": null,
+                "name": "das[house.year][from]",
+                "type": "numeric",
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 2030,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 2030",
+                            "notValid": "Ожидается число"
+                        }
+                    },
+                    {
+                        "numericality": {
+                            "greaterThanOrEqualTo": 1850,
+                            "notGreaterThanOrEqualTo": "Ожидается число больше 1850",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            },
+            {
+                "label": "До",
+                "value": null,
+                "default": null,
+                "name": "das[house.year][to]",
+                "type": "numeric",
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 2030,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 2030",
+                            "notValid": "Ожидается число"
+                        }
+                    },
+                    {
+                        "numericality": {
+                            "greaterThanOrEqualTo": 1850,
+                            "notGreaterThanOrEqualTo": "Ожидается число больше 1850",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "name": "floor_num",
+        "label": "Количество этажей",
+        "elements": [
+            {
+                "label": "От",
+                "value": null,
+                "default": null,
+                "name": "das[house.floor_num][from]",
+                "type": "numeric",
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 500,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 500",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            },
+            {
+                "label": "До",
+                "value": null,
+                "default": null,
+                "name": "das[house.floor_num][to]",
+                "type": "numeric",
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 500,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 500",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Жилой комплекс",
+        "value": null,
+        "default": null,
+        "name": "das[map.complex]",
+        "type": "selectbox"
+    },
+    {
+        "label": "Бывшее общежитие",
+        "value": null,
+        "default": null,
+        "name": "das[flat.priv_dorm]",
+        "type": "radio",
+        "values": [
+            {
+                "key": "1",
+                "value": "Да",
+                "data": {
+                    "extra": {
+                        "val_kk": "Иә"
+                    }
+                }
+            },
+            {
+                "key": "2",
+                "value": "Нет",
+                "data": {
+                    "extra": {
+                        "val_kk": "Жоқ"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "label": "Тип строения",
+        "value": null,
+        "default": null,
+        "name": "das[flat.building]",
+        "type": "checkboxgroup",
+        "values": [
+            {
+                "key": "1",
+                "value": "Кирпичный",
+                "data": {
+                    "extra": {
+                        "val_kk": "Кірпіш"
+                    }
+                }
+            },
+            {
+                "key": "2",
+                "value": "Панельный",
+                "data": {
+                    "extra": {
+                        "val_kk": "Панельдік"
+                    }
+                }
+            },
+            {
+                "key": "3",
+                "value": "Монолитный",
+                "data": {
+                    "extra": {
+                        "val_kk": "Монолитті"
+                    }
+                }
+            },
+            {
+                "key": "0",
+                "value": "Иное",
+                "data": {
+                    "extra": {
+                        "val_kk": "Басқа"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "type": "text",
+        "label": "О квартире"
+    },
+    {
+        "type": "group",
+        "name": "live-square-total",
+        "label": "Общая площадь, м²",
+        "elements": [
+            {
+                "label": "От",
+                "value": null,
+                "default": null,
+                "name": "das[live.square][from]",
+                "type": "numeric",
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 100000,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 100000",
+                            "notValid": "Ожидается число"
+                        }
+                    },
+                    {
+                        "numericality": {
+                            "greaterThanOrEqualTo": 1,
+                            "notGreaterThanOrEqualTo": "Ожидается число больше 1",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            },
+            {
+                "label": "До",
+                "value": null,
+                "default": null,
+                "name": "das[live.square][to]",
+                "type": "numeric",
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 100000,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 100000",
+                            "notValid": "Ожидается число"
+                        }
+                    },
+                    {
+                        "numericality": {
+                            "greaterThanOrEqualTo": 1,
+                            "notGreaterThanOrEqualTo": "Ожидается число больше 1",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "name": "square-living",
+        "label": "Жилая площадь, м²",
+        "elements": [
+            {
+                "label": "От",
+                "value": null,
+                "default": null,
+                "name": "das[live.square_l][from]",
+                "type": "numeric",
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 100000,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 100000",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            },
+            {
+                "label": "До",
+                "value": null,
+                "default": null,
+                "name": "das[live.square_l][to]",
+                "type": "numeric",
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 100000,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 100000",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "name": "square-kitchen",
+        "label": "Площадь кухни, м²",
+        "elements": [
+            {
+                "label": "От",
+                "value": null,
+                "default": null,
+                "name": "das[live.square_k][from]",
+                "type": "numeric",
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 1000,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 1000",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            },
+            {
+                "label": "До",
+                "value": null,
+                "default": null,
+                "name": "das[live.square_k][to]",
+                "type": "numeric",
+                "validators": [
+                    {
+                        "numericality": {
+                            "lessThanOrEqualTo": 1000,
+                            "notLessThanOrEqualTo": "Ожидается число меньше 1000",
+                            "notValid": "Ожидается число"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "В залоге",
+        "value": null,
+        "default": null,
+        "name": "das[mortgage]",
+        "type": "radio",
+        "values": [
+            {
+                "key": "1",
+                "value": "Да",
+                "data": {
+                    "extra": {
+                        "val_kk": "Иә"
+                    }
+                }
+            },
+            {
+                "key": "0",
+                "value": "Нет",
+                "data": {
+                    "extra": {
+                        "val_kk": "Жоқ"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "label": "Возможен обмен",
+        "value": null,
+        "default": null,
+        "name": "das[has_change]",
+        "type": "checkbox",
+        "values": [
+            {
+                "key": "1",
+                "value": "Возможен обмен"
+            }
+        ]
+    },
+    {
+        "label": "Санузел",
+        "value": null,
+        "default": null,
+        "name": "das[flat.toilet]",
+        "type": "checkboxgroup",
+        "values": [
+            {
+                "key": "1",
+                "value": "Раздельный",
+                "data": {
+                    "extra": {
+                        "val_kk": "Бөлек"
+                    }
+                }
+            },
+            {
+                "key": "2",
+                "value": "Совмещенный",
+                "data": {
+                    "extra": {
+                        "val_kk": "Біріктірілген"
+                    }
+                }
+            },
+            {
+                "key": "3",
+                "value": "2 с/у и более",
+                "data": {
+                    "extra": {
+                        "val_kk": "2 с/т және одан көп"
+                    }
+                }
+            },
+            {
+                "key": "4",
+                "value": "Нет",
+                "data": {
+                    "extra": {
+                        "val_kk": "Жоқ"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "label": "Телефон",
+        "value": null,
+        "default": null,
+        "name": "das[flat.phone]",
+        "type": "checkboxgroup",
+        "values": [
+            {
+                "key": "1",
+                "value": "Отдельный",
+                "data": {
+                    "extra": {
+                        "val_kk": "Жеке "
+                    }
+                }
+            },
+            {
+                "key": "2",
+                "value": "Блокиратор",
+                "data": {
+                    "extra": {
+                        "val_kk": "Блокиратор"
+                    }
+                }
+            },
+            {
+                "key": "3",
+                "value": "Есть возможность подключения",
+                "data": {
+                    "extra": {
+                        "val_kk": "Қосылу мүмкіндігі бар"
+                    }
+                }
+            },
+            {
+                "key": "4",
+                "value": "Нет",
+                "data": {
+                    "extra": {
+                        "val_kk": "Жоқ"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "type": "text",
+        "label": "Текст в объявлениях"
+    },
+    {
+        "label": "Поиск по тексту в объявлениях",
+        "value": null,
+        "default": null,
+        "name": "_txt_",
+        "type": null
+    }
+]

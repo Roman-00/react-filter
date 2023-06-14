@@ -1,0 +1,14 @@
+.ReactModal {
+    &__Overlay {
+        z-index: 1;
+    }
+
+    &__Content {
+        position: static !important;
+        width: 100%;
+        min-height: 100%;
+        padding: 0 !important;
+        border-radius: 0 !important;
+        border: none !important;
+    }
+}
